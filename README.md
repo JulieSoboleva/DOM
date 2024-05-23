@@ -1,6 +1,6 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/mwnpiarnxahhc3iw?svg=true)](https://ci.appveyor.com/project/JulieSoboleva/dom)
 
-[GitHub Pages](https://JulieSoboleva.github.io/dom/)
+[GitHub Pages](https://juliesoboleva.github.io/DOM/)
 
 Правила сдачи задания:
 
