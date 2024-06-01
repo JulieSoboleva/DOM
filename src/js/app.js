@@ -22,6 +22,7 @@ class Game {
       hole.addEventListener("click", () => {
         if (hole.classList.contains("hole_has-goblin")) {
           this.target += 1;
+          hole.classList.remove("hole_has-goblin");
           if (this.target == 10) {
             this.clearStatistics("Победа!");
           }
@@ -56,7 +57,7 @@ class Game {
       const currentHole = document.getElementById(`hole${this.currentIndex}`);
       currentHole.classList.add("hole_has-goblin");
       this.previousIndex = this.currentIndex;
-    }, 800);
+    }, 1000);
   }
 }
 
